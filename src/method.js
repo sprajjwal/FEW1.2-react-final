@@ -8,7 +8,6 @@ const network = NETWORK
 
 class Method extends Component {
   constructor(props) {
-    console.log("in here")
     super(props)
     this.state ={ 
       isCompleted: false
@@ -22,7 +21,6 @@ class Method extends Component {
       token: Cookies.get('pToken')
     }
     const url_link = `${network}/${url}/${type}`
-    console.log(url_link)
     fetch(url_link, {
       method: 'POST',
       headers: {
@@ -31,10 +29,8 @@ class Method extends Component {
       body: JSON.stringify(payload)
     })
     .then(async (res) => {
-      let a = await res.json()
-      console.log(a)
+      await res.json()
       this.setState({isCompleted: true})
-      console.log(this.state)
     })
     .catch(err => {
       console.log(err)
@@ -43,8 +39,7 @@ class Method extends Component {
   
   render() {
     this.helper()
-    const {type, url, id} = this.props
-    console.log(type)
+    const {type, id} = this.props
     const {isCompleted} = this.state
     if (Cookies.get('pToken') === null) {
       return <Redirect to='/'/>

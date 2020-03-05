@@ -1,3 +1,9 @@
+# Proposaly
+
+This react app serves as a front end to the [Proposal Approval API](https://approval-api.herokuapp.com/).
+This is a React App that deals with authentiaction and submitting, reviewing, deleting and approving proposals utilizing the API.
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

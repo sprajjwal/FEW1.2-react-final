@@ -78,7 +78,7 @@ class Proposal extends Component {
         {this.props.type=== 'incoming' ? 
         <div style={styles.buttons}>
           <Link to={approve_link} style={styles.approved}>Approve</Link>
-          <Link to={deny_link} style={styles.update}>Deny</Link>
+          <Link to={deny_link} style={styles.denied}>Deny</Link>
         </div>
         : <></>}
         <br></br>
@@ -118,7 +118,7 @@ const styles = {
   },
   update: {
     textDecoration: 'none',
-    color: '#acad58'
+    color: 'pink'
   },
   delete: {
     textDecoration: 'none',

@@ -23,7 +23,6 @@ class App extends Component {
   }
 
   loggedIn(what) {
-    console.log("in here with", what)
     this.setState({isLoggedIn: what})
   }
 

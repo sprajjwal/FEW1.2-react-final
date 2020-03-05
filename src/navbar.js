@@ -1,33 +1,42 @@
-import React from 'react';
+import React, {Component} from 'react';
 import { NavLink } from 'react-router-dom';
 import Cookies from 'js-cookie';
 
 
 
-function Navbar(props) {
-  return (
-    <div style={styles.navbar}>
-      <div style={styles.left}>
-        <NavLink style={styles.titleFont} to="/">Proposaly</NavLink>
+class Navbar extends Component {
+  constructor(props) {
+    super(props)
+    this.logOut = this.logOut.bind(this)
+  }
+  logOut(e) {
+    e.preventDefault()
+    this.props.loggedIn(false)
+    Cookies.remove('pToken')
+  }
+  render() {
+    return (
+      <div style={styles.navbar}>
+        <div style={styles.left}>
+          <NavLink style={styles.titleFont} to="/">Proposaly</NavLink>
+        </div>
+        <div style={styles.right}>
+          {
+            Cookies.get('pToken') === undefined ? (<>
+              <NavLink style={styles.font} to="/signup">Signup</NavLink>
+              <NavLink style={styles.font} to="/login">Login</NavLink> 
+            </>)
+              :  
+              <NavLink
+              to="/"
+              style={styles.font} 
+              onClick={this.logOut}>Logout</NavLink>
+          }
+        </div>
       </div>
-      <div style={styles.right}>
-        {
-          Cookies.get('pToken') === undefined ? (<>
-            <NavLink style={styles.font} to="/signup">Signup</NavLink>
-            <NavLink style={styles.font} to="/login">Login</NavLink> 
-          </>)
-            :  
-            <a 
-            href="/" 
-            style={styles.font} 
-            onClick={() => {
-              props.loggedIn(false)
-              Cookies.remove('pToken')
-            }}>Logout</a>
-        }
-      </div>
-    </div>
-  )
+    )
+  }
+  
 }
 
 export default Navbar;
