@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/FEW1.2-react-final/static/css/main.5cab0cd0.chunk.css",
-    "main.js": "/FEW1.2-react-final/static/js/main.3b9042bd.chunk.js",
-    "main.js.map": "/FEW1.2-react-final/static/js/main.3b9042bd.chunk.js.map",
+    "main.js": "/FEW1.2-react-final/static/js/main.560184e3.chunk.js",
+    "main.js.map": "/FEW1.2-react-final/static/js/main.560184e3.chunk.js.map",
     "runtime-main.js": "/FEW1.2-react-final/static/js/runtime-main.00e96cc1.js",
     "runtime-main.js.map": "/FEW1.2-react-final/static/js/runtime-main.00e96cc1.js.map",
-    "static/js/2.4fb1b171.chunk.js": "/FEW1.2-react-final/static/js/2.4fb1b171.chunk.js",
-    "static/js/2.4fb1b171.chunk.js.map": "/FEW1.2-react-final/static/js/2.4fb1b171.chunk.js.map",
+    "static/js/2.2fdcb0ac.chunk.js": "/FEW1.2-react-final/static/js/2.2fdcb0ac.chunk.js",
+    "static/js/2.2fdcb0ac.chunk.js.map": "/FEW1.2-react-final/static/js/2.2fdcb0ac.chunk.js.map",
     "index.html": "/FEW1.2-react-final/index.html",
-    "precache-manifest.5de80633688a89537d5e3c25f4e20c25.js": "/FEW1.2-react-final/precache-manifest.5de80633688a89537d5e3c25f4e20c25.js",
+    "precache-manifest.3c2aafb0b78a941ec00fd80398a76742.js": "/FEW1.2-react-final/precache-manifest.3c2aafb0b78a941ec00fd80398a76742.js",
     "service-worker.js": "/FEW1.2-react-final/service-worker.js",
     "static/css/main.5cab0cd0.chunk.css.map": "/FEW1.2-react-final/static/css/main.5cab0cd0.chunk.css.map",
-    "static/js/2.4fb1b171.chunk.js.LICENSE.txt": "/FEW1.2-react-final/static/js/2.4fb1b171.chunk.js.LICENSE.txt"
+    "static/js/2.2fdcb0ac.chunk.js.LICENSE.txt": "/FEW1.2-react-final/static/js/2.2fdcb0ac.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.00e96cc1.js",
-    "static/js/2.4fb1b171.chunk.js",
+    "static/js/2.2fdcb0ac.chunk.js",
     "static/css/main.5cab0cd0.chunk.css",
-    "static/js/main.3b9042bd.chunk.js"
+    "static/js/main.560184e3.chunk.js"
   ]
 }
