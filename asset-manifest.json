@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/FEW1.2-react-final/static/css/main.5cab0cd0.chunk.css",
-    "main.js": "/FEW1.2-react-final/static/js/main.7704cfec.chunk.js",
-    "main.js.map": "/FEW1.2-react-final/static/js/main.7704cfec.chunk.js.map",
+    "main.js": "/FEW1.2-react-final/static/js/main.d9443057.chunk.js",
+    "main.js.map": "/FEW1.2-react-final/static/js/main.d9443057.chunk.js.map",
     "runtime-main.js": "/FEW1.2-react-final/static/js/runtime-main.00e96cc1.js",
     "runtime-main.js.map": "/FEW1.2-react-final/static/js/runtime-main.00e96cc1.js.map",
     "static/js/2.2fdcb0ac.chunk.js": "/FEW1.2-react-final/static/js/2.2fdcb0ac.chunk.js",
     "static/js/2.2fdcb0ac.chunk.js.map": "/FEW1.2-react-final/static/js/2.2fdcb0ac.chunk.js.map",
     "index.html": "/FEW1.2-react-final/index.html",
-    "precache-manifest.c923189c8af7afb9e164bc34a03c0e03.js": "/FEW1.2-react-final/precache-manifest.c923189c8af7afb9e164bc34a03c0e03.js",
+    "precache-manifest.ef8d9024f90539043724b00f7d8015f0.js": "/FEW1.2-react-final/precache-manifest.ef8d9024f90539043724b00f7d8015f0.js",
     "service-worker.js": "/FEW1.2-react-final/service-worker.js",
     "static/css/main.5cab0cd0.chunk.css.map": "/FEW1.2-react-final/static/css/main.5cab0cd0.chunk.css.map",
     "static/js/2.2fdcb0ac.chunk.js.LICENSE.txt": "/FEW1.2-react-final/static/js/2.2fdcb0ac.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.00e96cc1.js",
     "static/js/2.2fdcb0ac.chunk.js",
     "static/css/main.5cab0cd0.chunk.css",
-    "static/js/main.7704cfec.chunk.js"
+    "static/js/main.d9443057.chunk.js"
   ]
 }
