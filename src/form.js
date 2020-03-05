@@ -27,8 +27,9 @@ class Form extends Component {
       password: this.state.password
     }
     const a = this.props.type
-
-    fetch(`${network}/${a}`, {
+    const url = `${network}/${a}`
+    console.log(url)
+    fetch(url, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
@@ -37,6 +38,7 @@ class Form extends Component {
     })
     .then(async (res) => {
       let a = await res.json()
+      console.log(a)
       if (a.token === undefined) {
         this.props.loggedIn(false)
       } else {
